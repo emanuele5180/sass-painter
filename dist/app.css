@@ -9,3 +9,33 @@
   height: 100px;
   background-color: black;
 }
+
+.top-part {
+  height: 40px;
+  text-align: right;
+}
+.top-part li {
+  display: inline-block;
+}
+.top-part li a {
+  line-height: 40px;
+  text-decoration: none;
+  padding: 0 10px;
+  color: grey;
+}
+
+.main-part {
+  height: 70px;
+}
+.main-part .logo {
+  font-size: 30px;
+}
+.main-part li {
+  display: inline-block;
+}
+.main-part li a {
+  padding: 20px 25px;
+  text-decoration: none;
+  color: white;
+  line-height: 60px;
+}

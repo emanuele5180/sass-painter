@@ -4,3 +4,37 @@
   height: 100px;
   background-color: black;
 }
+
+.top-part  {
+  height: 40px;
+  text-align: right;
+  li {
+    display: inline-block;
+
+    a {
+      line-height: 40px;
+      text-decoration: none;
+      padding: 0 10px;
+      color: grey;
+
+    }
+
+  }
+}
+
+.main-part {
+  height: 70px;
+  .logo{
+    font-size: 30px;
+
+  }
+  li{
+    display: inline-block;
+    a {
+      padding: 20px 25px;
+      text-decoration: none;
+      color: white;
+      line-height: 60px;
+    }
+  }
+}
