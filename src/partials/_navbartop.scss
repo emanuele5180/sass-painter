@@ -28,7 +28,7 @@
 }
 
 .main-part {
-  height: 70px;
+  height: 60px;
   .logo{
     font-size: 30px;
 
@@ -36,10 +36,16 @@
   li{
     display: inline-block;
     a {
-      padding: 20px 25px;
+      line-height: 60px;
+      padding: 20px 5px 20px 50px;
       text-decoration: none;
       color: white;
-      line-height: 60px;
+    }
+
+    i{
+      color: grey;
+      line-height: 40px;
+
     }
   }
 }
